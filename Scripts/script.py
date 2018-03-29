@@ -42,13 +42,15 @@ def process_data():
 			lbl.fit(list(properties_df[c].values))
 			properties_df[c] = lbl.transform(list(properties_df[c].values))
 	train_df = transaction_df.merge(properties_df, how='left', on='parcelid')
-	x_test = properties_df.drop(['parcelid'], axis=1)
+	# train_df.to_csv("temp_file.csv")
+	x_test = properties_df.drop(['parcelid','propertyzoningdesc', 'propertycountylandusecode'], axis=1)
 	remove_outliers()
-	x_train = train_df.drop(['parcelid', 'logerror','transactiondate'], axis=1)
+	x_train = train_df.drop(['parcelid', 'logerror','transactiondate','propertyzoningdesc', 'propertycountylandusecode'], axis=1)
 	y_train = train_df["logerror"].values.astype(np.float32)
 	y_mean = np.mean(y_train)	
 	print(x_train.shape, y_train.shape)
 	
+
 def run_XGBOOST():
 	global xgb_pred, x_test
 	xgb_params = {
