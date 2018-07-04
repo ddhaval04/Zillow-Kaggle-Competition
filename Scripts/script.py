@@ -242,6 +242,3 @@ if __name__=="__main__":
 		# kfold = KFold(n_splits=10, random_state=7)
 		# results = cross_val_score(pipeline, x_train, y_train, cv=kfold)
 		# print("Neural network: %.2f (%.2f) MSE" % (results.mean(), results.std()))
-
-
-
