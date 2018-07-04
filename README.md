@@ -3,7 +3,7 @@
 
 # Overview
 
-This is the code for my submission in the Kaggle Zillow's Home Value Prediction competition. The solution at the time of the competition was ranked in the *Top 20%*.
+This is the code for my submission in the Kaggle Zillow's Home Value Prediction competition. The solution at the time of the competition was ranked in the **Top 20%**.
 
 # Challenge
 
