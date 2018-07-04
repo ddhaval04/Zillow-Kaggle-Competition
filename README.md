@@ -40,27 +40,8 @@ To train the Neural Network :
 python nn script.py
 ```
 
-# Some interesting insights from exploratory analysis:
+## To have a look at the data exploration, please refer the `Scripts/Zillow_Exploration.ipynb` notebook.
 
-To explore more analysis, please refer the `script/Zillow_Exploration.ipynb` notebook.
-
-## 1)
-
-![Zillow-Kaggle](https://github.com/ddhaval04/Zillow-Kaggle-Competition/raw/master/images/log-error-distribution.png)
-
-From the above graph we can tell that if the logerror is positive, it means that Zillow is overestimating the Saleprice, and if the logerror is negative, it means that Zillow is underestimating the Salesprice.
-
-## 2)
-
-![Zillow-Kaggle](https://github.com/ddhaval04/Zillow-Kaggle-Competition/raw/master/images/houses-build-year.png)
-
-There has been a huge rise in the number of houses build in the recent year.
-
-## 3)
-
-![Zillow-Kaggle](https://github.com/ddhaval04/Zillow-Kaggle-Competition/raw/master/images/log-error-over-the-years.png)
-
-As per the data, Zillow has been fairly recently facing a problem of accurately predicting the prices of the houses. This can be seen from the consistent increase in the `logerror_mean` over the months.
 
 # Credits:
 
