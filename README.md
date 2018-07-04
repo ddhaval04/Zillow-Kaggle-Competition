@@ -3,7 +3,7 @@
 
 # Overview
 
-This is the code for my submission in the Kaggle Zillow's Home Value Prediction competition. The solution at the time of the competition was ranked in the Top 20%.
+This is the code for my submission in the Kaggle Zillow's Home Value Prediction competition. The solution at the time of the competition was ranked in the *Top 20%*.
 
 # Challenge
 
@@ -18,7 +18,6 @@ matplotlib
 seaborn
 sklearn
 keras
-
 ```
 
 # Usage
@@ -43,21 +42,26 @@ python nn script.py
 
 # Some interesting insights from exploratory analysis:
 
-1)
+To explore more analysis, please refer the `script/Zillow_Exploration.ipynb` notebook.
+
+## 1)
 
 ![Zillow-Kaggle](https://github.com/ddhaval04/Zillow-Kaggle-Competition/raw/master/images/log-error-distribution.png)
 
 From the above graph we can tell that if the logerror is positive, it means that Zillow is overestimating the Saleprice, and if the logerror is negative, it means that Zillow is underestimating the Salesprice.
 
-2)
+## 2)
 
 ![Zillow-Kaggle](https://github.com/ddhaval04/Zillow-Kaggle-Competition/raw/master/images/houses-build-year.png)
 
 There has been a huge rise in the number of houses build in the recent year.
 
-3)
+## 3)
 
 ![Zillow-Kaggle](https://github.com/ddhaval04/Zillow-Kaggle-Competition/raw/master/images/log-error-over-the-years.png)
 
 As per the data, Zillow has been fairly recently facing a problem of accurately predicting the prices of the houses. This can be seen from the consistent increase in the `logerror_mean` over the months.
 
+# Credits:
+
+- Kaggle community
