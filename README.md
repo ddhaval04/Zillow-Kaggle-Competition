@@ -40,8 +40,11 @@ To train the Neural Network :
 python nn script.py
 ```
 
-## To have a look at the data exploration, please refer the `Scripts/Zillow_Exploration.ipynb` notebook.
+### To have a look at the data exploration, please refer the `Scripts/Zillow_Exploration.ipynb` notebook.
 
+# Results:
+
+Submissions were evaluated on Mean Absolute Error between the predicted log-error and the actual log-error. The MAE obtained by my script is `0.0658257` and was ranked in **Top 20%** on the public and private leaderboard.
 
 # Credits:
 
